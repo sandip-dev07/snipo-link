@@ -1,8 +1,9 @@
 export const BIO_DATA = {
   hero: {
-    name: "Sandip Sarkar",
-    image: "https://res.cloudinary.com/dcsouj6ix/image/upload/v1771001422/Generated_Image_December_06_2025_-_12_40AM_rgusne.webp",
-    description: "I'm a full stack developer",
+    name: "Jeffery Erhunse",
+    image:
+      "https://images.unsplash.com/photo-1599698011977-c08128ff1652?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description: "Lifestyle creator and fashion model",
     totalFollowers: "",
     scrollThreshold: 0.1,
     socials: [
@@ -19,7 +20,7 @@ export const BIO_DATA = {
     {
       title: "Snapchat",
       image:
-        "https://res.cloudinary.com/dcsouj6ix/image/upload/f_webp,q_auto/v1770805910/slugy_npzdqi.png",
+        "https://images.unsplash.com/photo-1566663188515-cded082fcc03?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       icon: "snapchat",
       iconClassName: "text-yellow-400",
       href: "#snapchat",
@@ -27,14 +28,14 @@ export const BIO_DATA = {
     {
       title: "X",
       image:
-        "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=1200&fit=crop&fm=webp&q=80",
+        "https://images.unsplash.com/photo-1539576072325-a844bc0c6650?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDQ1fHx8ZW58MHx8fHx8",
       icon: "x",
       href: "#x",
     },
     {
       title: "Instagram",
       image:
-        "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=1200&fit=crop&fm=webp&q=80",
+        "https://images.unsplash.com/photo-1769535897093-529919181e71?q=80&w=1228&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       icon: "instagram",
       iconClassName: "text-pink-500",
       href: "#instagram",
@@ -42,7 +43,7 @@ export const BIO_DATA = {
     {
       title: "Facebook",
       image:
-        "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=1200&fit=crop&fm=webp&q=80",
+        "https://images.unsplash.com/photo-1713127686686-7d8892fff7f5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       icon: "facebook",
       iconClassName: "text-blue-600",
       href: "#facebook",
@@ -50,14 +51,14 @@ export const BIO_DATA = {
     {
       title: "TikTok",
       image:
-        "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=1200&fit=crop&fm=webp&q=80",
+        "https://images.unsplash.com/photo-1579983881203-27b05ce3d7b5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDYxfHx8ZW58MHx8fHx8",
       icon: "tiktok",
       href: "#tiktok",
     },
     {
       title: "Buy Merch Here",
       image:
-        "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=1200&fit=crop&fm=webp&q=80",
+        "https://images.unsplash.com/photo-1718964313270-d00053a7607b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDgxfHx8ZW58MHx8fHx8",
       icon: "link",
       href: "#merch",
     },
@@ -65,50 +66,50 @@ export const BIO_DATA = {
   // FEATURE
   feature: [
     {
-      title: "Slugy - The Next Generation of Speed",
+      title: "Luna Hayes Spring Fashion Shoot",
       image:
-        "https://images.unsplash.com/photo-1580748141549-71748dbe0bdc?w=1400&fit=crop&fm=webp&q=80",
-      href: "#hockey",
+        "https://images.unsplash.com/photo-1673767297353-0a4c8ad61b05?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fHZpZGVvfGVufDB8fDB8fHwy",
+      href: "#fashion",
     },
     {
-      title: "IShowSpeed Learns Hockey with Cole Caufield",
+      title: "Daily Makeup and Skincare Routine",
       image:
-        "https://images.unsplash.com/photo-1580748141549-71748dbe0bdc?w=1400&fit=crop&fm=webp&q=80",
-      href: "#hockey",
+        "https://images.unsplash.com/photo-1664277497087-51787d2b9d15?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
+      href: "#beauty",
     },
     {
-      title: "SPEED India VS Pakistan Cricket Match!",
+      title: "Behind The Scenes: Studio Vlog",
       image:
-        "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=1400&fit=crop&fm=webp&q=80",
-      href: "#cricket",
+        "https://images.unsplash.com/photo-1649060718881-236572de3c7f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDg2fHx8ZW58MHx8fHx8",
+      href: "#vlog",
     },
   ],
   // GALLERY
   gallery: [
     {
-      alt: "Speed selfie with fans",
+      alt: "Luna portrait close-up",
       image:
-        "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&fit=crop&fm=webp&q=80",
+        "https://images.unsplash.com/photo-1666945406589-999747aeb5b5?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      alt: "Speed with performers in black suits",
+      alt: "Luna in studio lighting",
       image:
-        "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1200&fit=crop&fm=webp&q=80",
+        "https://images.unsplash.com/photo-1732968158081-1f9f86f1022a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D",
     },
     {
-      alt: "Speed on football field",
+      alt: "Luna casual look",
       image:
-        "https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=1200&fit=crop&fm=webp&q=80",
+        "https://images.unsplash.com/photo-1558291140-122c7511bc4f?q=80&w=858&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      alt: "Speed posing with a friend outdoors",
+      alt: "Luna profile angle",
       image:
-        "https://images.unsplash.com/photo-1521119989659-a83eee488004?w=1200&fit=crop&fm=webp&q=80",
+        "https://images.unsplash.com/photo-1630445376714-6e15a877c58b?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
-      alt: "Speed posing with a friend indoors",
+      alt: "Luna beauty shot",
       image:
-        "https://images.unsplash.com/photo-1576836165612-8bc9b07e7778?w=687&fit=crop&fm=webp&q=80",
+        "https://images.unsplash.com/photo-1630520707335-9e4e79b731c3?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
   ],
   // LINK CARD
@@ -121,8 +122,8 @@ export const BIO_DATA = {
     },
     {
       title: "Watch latest YouTube video",
-      href: "https://youtube.com/@speed",
-      label: "youtube.com/@speed",
+      href: "https://youtube.com/@lunahayes",
+      label: "youtube.com/@lunahayes",
       icon: "youtube",
     },
     {
@@ -142,14 +143,14 @@ export const BIO_DATA = {
     },
     {
       label: "Website",
-      value: "https://devalphaspace.in/",
-      href: "https://devalphaspace.in/",
+      value: "https://example.com/",
+      href: "https://example.com/",
       icon: "globe",
     },
     {
       label: "Email",
-      value: "sarkarsandip611@gmail.com",
-      href: "mailto:sarkarsandip611@gmail.com",
+      value: "hello@lunahayes.com",
+      href: "mailto:hello@lunahayes.com",
       icon: "mail",
     },
   ],

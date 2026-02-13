@@ -4,6 +4,7 @@ import CarouselGallery from "@/components/web/carousel-gallery";
 import Contact from "@/components/web/contact";
 import Container from "@/components/web/container";
 import Feature from "@/components/web/feature";
+import FeatureCarousel from "@/components/web/feature-carousel";
 import Footer from "@/components/web/footer";
 import HeroSection from "@/components/web/hero";
 import LinkCard from "@/components/web/link-card";
@@ -29,6 +30,10 @@ export default function Home() {
 
       <Container>
         <HeroSection image={BIO_DATA.hero.image} />
+
+        <motion.div {...fadeUp(0.05)}>
+          <FeatureCarousel />
+        </motion.div>
 
         <motion.div {...fadeUp(0.05)}>
           <SocialGrid />
