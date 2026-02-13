@@ -41,7 +41,6 @@ export default function SocialGrid() {
               fill
               sizes="(max-width: 640px) 50vw, 33vw"
               className="object-cover transition duration-300 group-hover:scale-105"
-              unoptimized
             />
 
             <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/20 to-transparent" />

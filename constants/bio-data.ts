@@ -19,7 +19,7 @@ export const BIO_DATA = {
     {
       title: "Snapchat",
       image:
-        "https://res.cloudinary.com/dcsouj6ix/image/upload/v1770805910/slugy_npzdqi.png",
+        "https://res.cloudinary.com/dcsouj6ix/image/upload/f_webp,q_auto/v1770805910/slugy_npzdqi.png",
       icon: "snapchat",
       iconClassName: "text-yellow-400",
       href: "#snapchat",
@@ -27,14 +27,14 @@ export const BIO_DATA = {
     {
       title: "X",
       image:
-        "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=1200&fit=crop&fm=webp&q=80",
       icon: "x",
       href: "#x",
     },
     {
       title: "Instagram",
       image:
-        "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=1200&fit=crop&fm=webp&q=80",
       icon: "instagram",
       iconClassName: "text-pink-500",
       href: "#instagram",
@@ -42,7 +42,7 @@ export const BIO_DATA = {
     {
       title: "Facebook",
       image:
-        "https://images.unsplash.com/photo-1546519638-68e109498ffc?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=1200&fit=crop&fm=webp&q=80",
       icon: "facebook",
       iconClassName: "text-blue-600",
       href: "#facebook",
@@ -50,14 +50,14 @@ export const BIO_DATA = {
     {
       title: "TikTok",
       image:
-        "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=1200&fit=crop&fm=webp&q=80",
       icon: "tiktok",
       href: "#tiktok",
     },
     {
       title: "Buy Merch Here",
       image:
-        "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=1200&fit=crop&fm=webp&q=80",
       icon: "link",
       href: "#merch",
     },
@@ -65,15 +65,21 @@ export const BIO_DATA = {
   // FEATURE
   feature: [
     {
+      title: "Slugy - The Next Generation of Speed",
+      image:
+        "https://images.unsplash.com/photo-1580748141549-71748dbe0bdc?w=1400&fit=crop&fm=webp&q=80",
+      href: "#hockey",
+    },
+    {
       title: "IShowSpeed Learns Hockey with Cole Caufield",
       image:
-        "https://images.unsplash.com/photo-1580748141549-71748dbe0bdc?q=80&w=1400&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1580748141549-71748dbe0bdc?w=1400&fit=crop&fm=webp&q=80",
       href: "#hockey",
     },
     {
       title: "SPEED India VS Pakistan Cricket Match!",
       image:
-        "https://images.unsplash.com/photo-1531415074968-036ba1b575da?q=80&w=1400&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1531415074968-036ba1b575da?w=1400&fit=crop&fm=webp&q=80",
       href: "#cricket",
     },
   ],
@@ -82,27 +88,27 @@ export const BIO_DATA = {
     {
       alt: "Speed selfie with fans",
       image:
-        "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200&fit=crop&fm=webp&q=80",
     },
     {
       alt: "Speed with performers in black suits",
       image:
-        "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=1200&fit=crop&fm=webp&q=80",
     },
     {
       alt: "Speed on football field",
       image:
-        "https://images.unsplash.com/photo-1517466787929-bc90951d0974?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=1200&fit=crop&fm=webp&q=80",
     },
     {
       alt: "Speed posing with a friend outdoors",
       image:
-        "https://images.unsplash.com/photo-1521119989659-a83eee488004?q=80&w=1200&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1521119989659-a83eee488004?w=1200&fit=crop&fm=webp&q=80",
     },
     {
       alt: "Speed posing with a friend indoors",
       image:
-        "https://images.unsplash.com/photo-1576836165612-8bc9b07e7778?q=80&w=687&auto=format&fit=crop",
+        "https://images.unsplash.com/photo-1576836165612-8bc9b07e7778?w=687&fit=crop&fm=webp&q=80",
     },
   ],
   // LINK CARD

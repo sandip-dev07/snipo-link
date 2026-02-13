@@ -52,7 +52,6 @@ export default function CarouselGallery() {
                     fill
                     sizes="(max-width: 640px) 42vw, (max-width: 1024px) 31vw, 24vw"
                     className="object-cover transition duration-300"
-                    unoptimized
                   />
                 </div>
               </button>
@@ -72,7 +71,6 @@ export default function CarouselGallery() {
                   fill
                   sizes="(max-width: 640px) 90vw, 768px"
                   className="object-contain"
-                  unoptimized
                 />
               </div>
             </div>

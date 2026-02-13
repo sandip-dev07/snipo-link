@@ -19,7 +19,6 @@ export default function Feature() {
               fill
               sizes="100vw"
               className="object-cover transition duration-300"
-              unoptimized
             />
             
             <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent" />

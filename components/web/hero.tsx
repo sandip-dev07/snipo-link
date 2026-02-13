@@ -65,7 +65,6 @@ export default function HeroSection({ image }: HeroSectionProps) {
                 fill
                 sizes="32px"
                 className="object-cover"
-                unoptimized
               />
             </div>
             <div className="flex items-center gap-1.5">
@@ -85,7 +84,6 @@ export default function HeroSection({ image }: HeroSectionProps) {
           priority
           sizes="100vw"
           className="object-cover"
-          unoptimized
         />
 
         {/* Gradient overlay */}
