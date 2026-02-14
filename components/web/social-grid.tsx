@@ -1,5 +1,4 @@
 import type { ComponentType } from "react";
-import Image from "next/image";
 import { Link2 } from "lucide-react";
 import {
   FaFacebookF,
@@ -9,6 +8,7 @@ import {
 } from "react-icons/fa";
 import { RiTwitterXFill } from "react-icons/ri";
 import { BIO_DATA } from "@/constants/bio-data";
+import CustomImage from "@/components/ui/custom-image";
 
 type GridIcon = (typeof BIO_DATA.socialGrid)[number]["icon"];
 
@@ -35,7 +35,7 @@ export default function SocialGrid() {
             className="group relative aspect-video overflow-hidden rounded-lg bg-zinc-900"
             aria-label={`Visit ${item.title}`}
           >
-            <Image
+            <CustomImage
               src={item.image}
               alt={`${item.title} cover`}
               fill

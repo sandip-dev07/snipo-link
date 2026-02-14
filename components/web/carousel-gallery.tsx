@@ -1,8 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import { useState, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
+import CustomImage from "@/components/ui/custom-image";
 import {
   Dialog,
   DialogContent,
@@ -46,7 +46,7 @@ export default function CarouselGallery() {
                 aria-label={`Open ${item.alt}`}
               >
                 <div className="relative h-full w-full">
-                  <Image
+                  <CustomImage
                     src={item.image}
                     alt={item.alt}
                     fill
@@ -65,7 +65,7 @@ export default function CarouselGallery() {
           {selectedItem && (
             <div className="space-y-3">
               <div className="relative aspect-square w-full overflow-hidden rounded-xl">
-                <Image
+                <CustomImage
                   src={selectedItem.image}
                   alt={selectedItem.alt}
                   fill

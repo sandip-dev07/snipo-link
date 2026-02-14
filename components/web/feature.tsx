@@ -1,6 +1,6 @@
-import Image from "next/image";
 import { FaYoutube } from "react-icons/fa";
 import { BIO_DATA } from "@/constants/bio-data";
+import CustomImage from "@/components/ui/custom-image";
 
 export default function Feature() {
   return (
@@ -13,7 +13,7 @@ export default function Feature() {
             aria-label={`Watch: ${title}`}
             className="group relative block aspect-video overflow-hidden rounded-xl bg-zinc-900"
           >
-            <Image
+            <CustomImage
               src={image}
               alt={title}
               fill

@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useState, useCallback, type FormEvent } from "react";
 import {
   ChevronDown,
@@ -16,6 +15,7 @@ import {
 import { RiVerifiedBadgeFill } from "react-icons/ri";
 import { BIO_DATA } from "@/constants/bio-data";
 import { Button } from "../ui/button";
+import CustomImage from "../ui/custom-image";
 import {
   Dialog,
   DialogContent,
@@ -136,7 +136,7 @@ export default function HeroSection({
               className="relative size-8 overflow-hidden rounded-full"
               aria-hidden="true"
             >
-              <Image
+              <CustomImage
                 src={heroData.image}
                 alt=""
                 fill
@@ -164,11 +164,10 @@ export default function HeroSection({
         </Button>
 
         {/* Hero image */}
-        <Image
+        <CustomImage
           src={heroData.image}
           alt={`${heroData.name} profile hero image`}
           fill
-          priority
           sizes="100vw"
           className="object-cover"
         />

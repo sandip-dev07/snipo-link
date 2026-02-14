@@ -1,10 +1,10 @@
 "use client";
 
-import Image from "next/image";
 import { useCallback, useEffect, useState } from "react";
 import { FaChevronLeft, FaChevronRight, FaYoutube } from "react-icons/fa";
 import useEmblaCarousel from "embla-carousel-react";
 import { BIO_DATA } from "@/constants/bio-data";
+import CustomImage from "@/components/ui/custom-image";
 
 const EMBLA_OPTIONS = {
   align: "start" as const,
@@ -67,7 +67,7 @@ export default function FeatureCarousel() {
               >
                 {/* className="group relative mr-3 block aspect-video min-w-0 flex-[0_0_85%] overflow-hidden rounded-xl bg-zinc-900 sm:flex-[0_0_65%] lg:flex-[0_0_48%]"
                  */}
-                <Image
+                <CustomImage
                   src={image}
                   alt={title}
                   fill
